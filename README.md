@@ -1,9 +1,14 @@
 # node-storage
 
+# Install
+```
+npm install extra-local-storage
+```
+
 # Usage
 ```
-import storage from 'node-storage'
-// store data in **'./test'**, default is 'node-storage'
+import storage from 'extra-local-storage'
+// store data in **'./test'**, default is 'storage'
 const test = storage('test')
 test.xxx // call api
 

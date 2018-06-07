@@ -12,7 +12,7 @@ const option = {
   interval: -1,
 }
 
-const createStorage = (dir='node-storage', opts={}) => {
+const createStorage = (dir='storage', opts={}) => {
   dir = path.normalize(dir)
 	if (!path.isAbsolute(dir)) {
 		dir = path.join(process.cwd(), dir)
